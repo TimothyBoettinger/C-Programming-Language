@@ -1,3 +1,4 @@
+//Pattern 5: Inverted Mirrored Right-Angle Triangle
 #include <stdio.h>
 
 int main()
