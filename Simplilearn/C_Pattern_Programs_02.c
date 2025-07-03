@@ -16,7 +16,7 @@ int i, rows = 5;
 
               printf("* ");
 
-}
+  }
 
             printf("\n"); //New line
 
