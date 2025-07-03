@@ -1,3 +1,4 @@
+//Pattern 4: Mirrored Right-Angle Triangle
 #include <stdio.h>
 
 int main()
