@@ -1,3 +1,6 @@
+*Note from Curator*
+- From what I understand and have read, this does not have "clean code" or follow typical conventions. This is not my code, please do not come after me in my sleep.
+
 #Table of Contents
 - Labelled as C_Pattern_Programs_#.c for export if appropriate.
 
