@@ -20,13 +20,13 @@ The core tenet of C is "Trust the Programmer." The language assumes you know wha
 * No Hand-Holding: Did you malloc some memory? You'd better remember to free it. Trying to write past the end of an array? C won't stop you. Want to cast a pointer of one type to a completely unrelated type? Go right ahead. The language provides the tools for ultimate control, and with that control comes ultimate responsibility.
 
 # Im still learning but do I have any tips?
-* The best mental model I can think to use is C as a structure, and environment to directly communicate with the machine at your fingertips.
+The best mental model I can think to use is C as a structure, and environment to directly communicate with the machine at your fingertips.
 
 C - Variable Declaration (`int x;`)
 Machine - Reserve a specific amount of memory on the stack. 
 
 C - Pointer (`int *p = &x;`)  
-Machine - 
+Machine - A variable that holds the literal memory address of `x`. 
 
 C - Array (`int arr[10];`) 
 Macine - A contiguous block of memory. `arr[i]` is just syntactic sugar for `*(arr + i)`. 
