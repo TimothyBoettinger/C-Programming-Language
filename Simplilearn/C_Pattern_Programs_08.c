@@ -1,3 +1,4 @@
+//Pattern 8: Inverted Pyramid
 #include <stdio.h>
 
 int main()
