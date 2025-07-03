@@ -1,3 +1,4 @@
+//Pattern 3: Arrow-Shaped Pattern
 #include <stdio.h>
 
 int main()
