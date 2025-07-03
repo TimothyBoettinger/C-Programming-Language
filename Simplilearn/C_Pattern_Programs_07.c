@@ -1,3 +1,4 @@
+//Pattern 7: Pyramid Star Pattern Program
 #include <stdio.h>
 
 int main()
