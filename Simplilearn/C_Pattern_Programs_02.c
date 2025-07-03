@@ -1,3 +1,4 @@
+//Pattern 2: Inverted Right-Angle Triangle in a Start Pattern
 #include <stdio.h>
 
 int main()
