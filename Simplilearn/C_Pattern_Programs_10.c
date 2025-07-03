@@ -1,3 +1,4 @@
+//Pattern 10: Upper Inverted Pyramid and Lower Pyramid
 #include <stdio.h>
 
 int main()
