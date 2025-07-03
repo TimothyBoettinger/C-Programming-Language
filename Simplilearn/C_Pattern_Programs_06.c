@@ -1,3 +1,4 @@
+//Pattern 6: Mirrored Arrow-Shaped Star Pattern
 #include <stdio.h>
 
 int main()
