@@ -29,7 +29,7 @@ C - Pointer (`int *p = &x;`)
 Machine - A variable that holds the literal memory address of `x`. 
 
 C - Array (`int arr[10];`) 
-Macine - A contiguous block of memory. `arr[i]` is just syntactic sugar for `*(arr + i)`. 
+Machine - A contiguous block of memory. `arr[i]` is just syntactic sugar for `*(arr + i)`. 
 
 C - `struct` 
 Machine - A template for laying out a contiguous block of memory with named offsets. 
