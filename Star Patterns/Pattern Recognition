@@ -1,0 +1,41 @@
+Notice - 
+
+1. Number of Nested Loops and Their Iteration Logic:
+
+       * Most patterns use two nested for loops (one for rows, one for columns).
+
+       * The start and end conditions of these loops (i, j, k relative to rows) are
+         varied to control the number of stars or spaces printed in each row. For
+         example, j <= i for a right-angle triangle vs. j <= rows - i for an inverted
+         one.
+
+       * Some patterns (e.g., Mirrored Right-Angle Triangle, Pyramid) use three 
+         nested loops or a combination of loops to handle spaces before printing
+         stars.
+
+2. Space Printing Logic:
+ 
+       * Leading Spaces: Many patterns (e.g., Mirrored Right-Angle Triangle, Pyramid,
+         Inverted Pyramid) introduce a separate inner loop or modify the column loop
+         to print leading spaces (printf(" ");) before the stars, shifting the pattern
+         horizontally.
+       * Internal Spaces: For hollow patterns (e.g., Hollow Square, Hollow Rhombus,
+         Pyramid Star Pattern 15, Inverted Star Pyramid 16), spaces are printed
+         instead of stars based on conditional logic within the innermost loop.
+
+
+3. Conditional Printing (`if/else`) within the Innermost Loop:
+       
+       * This is crucial for hollow patterns (e.g., 15, 16, 17, 18, 20) and patterns
+         with specific outlines (e.g., X Star Pattern 12, V Star Pattern 14).
+       
+       * An if statement checks conditions (e.g., i == 1 || i == rows || j == 1 || j 
+         == m for borders, or j == 1 || j == (2 * i - 1) for diagonals) to decide
+         whether to print a * or a space ( ).
+
+
+4. Relationship between `rows` and Printed Elements:
+       
+       * The formulas used to determine the number of stars or spaces often involve
+         rows, i (current row), and j (current column). Examples include 2 * i - 1
+         for the number of stars in a pyramid row, or rows - i for spaces.
