@@ -1,3 +1,4 @@
+//Pattern 1: Right Angle Triangle
 #include <stdio.h>
 
 int main(){
