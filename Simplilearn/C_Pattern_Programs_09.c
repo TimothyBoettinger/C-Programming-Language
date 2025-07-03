@@ -1,3 +1,4 @@
+//Pattern 9: Diamond Star Pattern
 #include <stdio.h>
 
 int main()
